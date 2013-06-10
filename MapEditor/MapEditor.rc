@@ -1,0 +1,605 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MapEditor.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.chs\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MapEditor.ico"
+IDR_MAPEDITYPE          ICON    DISCARDABLE     "res\\MapEditorDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar\\MainToolbar.bmp"
+IDR_TB_INFO_SHOW        BITMAP  DISCARDABLE     "res\\Toolbar\\debug_dialog_toolbar.bmp"
+IDB_DEBUG_TOOLBAR       BITMAP  DISCARDABLE     "res\\bmp\\bmp_debugToolbar.bmp"
+IDB_BITMAP_MAIN_TOOLBAR BITMAP  DISCARDABLE     "res\\bmp\\bmp_toolbar.bmp"
+IDB_BMP_MAIN_TOOLBAR_DISABLED BITMAP  DISCARDABLE     "res\\BMP\\bmp_toolbar_disabled.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      ID_EDIT_DELETE
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_EDIT_UNDO
+    BUTTON      ID_EDIT_REDO
+    SEPARATOR
+    BUTTON      ID_BUTTON_MOVE_CANVAS
+    BUTTON      ID_BUTTON_SELECT_MODE
+    BUTTON      ID_BUTTON_LOS
+    SEPARATOR
+    BUTTON      ID_BUTTON_SHOW_GRID
+    BUTTON      ID_BUTTON_BACKGROUND_COLOR
+    SEPARATOR
+    BUTTON      ID_EDIT_ORA_SIZE
+    BUTTON      ID_BUTTON_ZOOMIN
+    BUTTON      ID_BUTTON_ZOOMOUT
+    SEPARATOR
+    BUTTON      ID_BUTTON_ROTATE_LEFT_90
+    BUTTON      ID_BUTTON_ROTATE_RIGHT_90
+    SEPARATOR
+    BUTTON      ID_BUTTON_HIDE_PROPERTY
+    BUTTON      ID_BUTTON_SHOW_INFO_DLG
+END
+
+IDR_TB_INFO_SHOW TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      ID_BUTTON_CLEAR_LOG
+    BUTTON      ID_BUTTON_SCROLL_LOG
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",            ID_FILE_NEW
+        MENUITEM "打开(&O)...\tCtrl+O",         ID_FILE_OPEN
+        MENUITEM "保存(&S)\tCtrl+S",            ID_FILE_SAVE
+        MENUITEM "另存为(&A)...",               ID_FILE_SAVE_AS
+        MENUITEM "导出(&E)",                    ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "打印(&P)...\tCtrl+P",         ID_FILE_PRINT, GRAYED
+        MENUITEM "打印预览(&V)",                ID_FILE_PRINT_PREVIEW
+        , GRAYED
+        MENUITEM "打印设置(&R)...",             ID_FILE_PRINT_SETUP, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "最近文件",                    ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                    ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",            ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",            ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",            ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+    END
+    POPUP "设置(&S)"
+    BEGIN
+        MENUITEM "地图参数设置",                ID_SET_MAP
+        MENUITEM "编辑器参数设置",              ID_SET_EDITOR
+    END
+    POPUP "查看(&V)"
+    BEGIN
+        MENUITEM "工具栏(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM "状态栏(&S)",                  ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "层显示"
+        BEGIN
+            MENUITEM "地板",                        ID_MI_SHOW_LAYER_TILE
+            , CHECKED
+            MENUITEM "门",                          ID_MI_SHOW_LAYER_DOOR
+            , CHECKED
+            MENUITEM "障碍物",                      ID_MI_SHOW_LAYER_OBSTACLE
+            , CHECKED
+            MENUITEM "一般物品",                    ID_MI_SHOW_LAYER_OBJECT
+            , CHECKED
+            MENUITEM "宝物",                        ID_MI_SHOW_LAYER_TREASURE
+            , CHECKED
+            MENUITEM "普通怪物",                    ID_MI_SHOW_LAYER_MONSTER
+            , CHECKED
+            MENUITEM "精英怪物",                    ID_MI_SHOW_LAYER_MASTER
+            , CHECKED
+        END
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于Descent Board Game Assist(&A)...", ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 296, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Descent Board Game Assistant"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Descent: Journey in The Dark Map Editor\nVersion: 1.0.0.1\nCopyright",
+                    IDC_STATIC_VERSION,40,10,243,26,SS_NOPREFIX
+    LTEXT           "Author:Jason Tou",IDC_STATIC,40,35,119,10
+    DEFPUSHBUTTON   "确定",IDOK,122,58,50,14,WS_GROUP
+    LTEXT           "Email Address",IDC_STATIC_MAIL,68,44,215,8
+    LTEXT           "Email:",IDC_STATIC,40,44,25,8
+END
+
+IDD_LEFTFORMVIEW_FORM DIALOG DISCARDABLE  0, 0, 146, 284
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO_ITEMS_TYPE,7,7,132,110,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "List1",IDC_LIST_IMAGE,"SysListView32",LVS_SINGLESEL | 
+                    WS_BORDER | WS_TABSTOP,7,21,132,256
+END
+
+IDD_INFO_SHOW DIALOGEX 0, 0, 285, 126
+STYLE WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "调试信息输出"
+FONT 10, "Tahoma", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST_INFO_SHOW_LOG,3,2,279,121,LBS_SORT | 
+                    LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+END
+
+IDD_SET_MAP DIALOG DISCARDABLE  0, 0, 250, 317
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "地图参数设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,296,50,14
+    PUSHBUTTON      "取消",IDCANCEL,193,296,50,14
+    CTEXT           "MAP PROPERTY CONTROL",IDC_STATIC_PROPERTY_MAP,7,7,236,
+                    285,SS_CENTERIMAGE | WS_BORDER
+END
+
+IDD_SET_EDITOR DIALOG DISCARDABLE  0, 0, 253, 325
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "编辑器参数设置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,137,304,50,14
+    PUSHBUTTON      "取消",IDCANCEL,196,304,50,14
+    CTEXT           "PROPERTY CONTROL",IDC_STATIC_PROPERTY_EDITOR,7,7,239,
+                    291,SS_CENTERIMAGE | WS_BORDER
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2013,3,28,15
+ PRODUCTVERSION 1,0,13,15
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "Board Game Assistant\0"
+            VALUE "CompanyName", "Niunian Studio\0"
+            VALUE "FileDescription", "Descent: Journey to The Dark! Board Game Assistant\0"
+            VALUE "FileVersion", "2013, 3, 28, 15\0"
+            VALUE "InternalName", "MapEditor(Assist)\0"
+            VALUE "LegalCopyright", "SosoAyaen All rights received (C) 2013\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MapEditor.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "MapEditor\0"
+            VALUE "ProductVersion", "1, 0, 13, 15\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 289
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_LEFTFORMVIEW_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 139
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 277
+    END
+
+    IDD_INFO_SHOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 282
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_SET_MAP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 310
+    END
+
+    IDD_SET_EDITOR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 318
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_LEFTFORMVIEW_FORM DLGINIT
+BEGIN
+    IDC_COMBO_ITEMS_TYPE, 0x403, 6, 0
+0x6954, 0x656c, 0x0073, 
+    IDC_COMBO_ITEMS_TYPE, 0x403, 8, 0
+0x624f, 0x656a, 0x7463, 0x0073, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_RECTANGLE    CURSOR  DISCARDABLE     "res\\cursor\\cursor_rectangle.cur"
+IDC_CURSOR_DRAGGING     CURSOR  DISCARDABLE     "res\\cursor\\cursor_dragging.cur"
+IDC_CURSOR_HAND         CURSOR  DISCARDABLE     "res\\cursor\\cursor_hand.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "res\\xpstyle.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Board Game Assist\n\nMapEdi\nDescent地图文件 (*.dmap)\n.dmap\nMapEditor.Document\nMapEdi Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDS_STATUS_MOUSE_POS    "  100000, 100000"
+    IDS_STATUS_ZOOMED_RATE  "100.00%     "
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Descent: Journeys in The Dark!"
+    AFX_IDS_IDLEMESSAGE     "Descent: Journeys in The Dark! Board Game Assistant"
+    IDS_STRING_FILE_FILTER  "XML文件(*.xml)|*.xml|全部文件(*.*)|*.*|"
+    IDS_STRING_OPEN_DLG_TITLE "打开DESCENT文件"
+    IDS_STRING_FILE_DEF_EXT "xml"
+    IDS_STRING_SAVEAS_DLG_TITLE "地图文件另存为"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "扩展名"
+    ID_INDICATOR_CAPS       "大写"
+    ID_INDICATOR_NUM        "数字"
+    ID_INDICATOR_SCRL       "滚动"
+    ID_INDICATOR_OVR        "改写"
+    ID_INDICATOR_REC        "记录"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "建立新文档\n新建"
+    ID_FILE_OPEN            "打开一个现有文档\n打开"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存活动文档\n保存"
+    ID_FILE_SAVE_AS         "将活动文档以一个新文件名保存\n另存为"
+    ID_FILE_PAGE_SETUP      "改变打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "改变打印机及打印选项\n打印设置"
+    ID_FILE_PRINT           "打印活动文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示整页\n打印预览"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息，版本号和版权\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "打开该文档"
+    ID_FILE_MRU_FILE2       "打开该文档"
+    ID_FILE_MRU_FILE3       "打开该文档"
+    ID_FILE_MRU_FILE4       "打开该文档"
+    ID_FILE_MRU_FILE5       "打开该文档"
+    ID_FILE_MRU_FILE6       "打开该文档"
+    ID_FILE_MRU_FILE7       "打开该文档"
+    ID_FILE_MRU_FILE8       "打开该文档"
+    ID_FILE_MRU_FILE9       "打开该文档"
+    ID_FILE_MRU_FILE10      "打开该文档"
+    ID_FILE_MRU_FILE11      "打开该文档"
+    ID_FILE_MRU_FILE12      "打开该文档"
+    ID_FILE_MRU_FILE13      "打开该文档"
+    ID_FILE_MRU_FILE14      "打开该文档"
+    ID_FILE_MRU_FILE15      "打开该文档"
+    ID_FILE_MRU_FILE16      "打开该文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回前一个窗格\n前一窗格"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "将活动的窗口分隔成窗格\n分隔"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "删除被选对象\n删除"
+    ID_EDIT_CLEAR_ALL       "全部删除\n全部删除"
+    ID_EDIT_COPY            "复制被选对象并将其置于剪贴板上\n复制"
+    ID_EDIT_CUT             "剪切被选对象并将其置于剪贴板上\n剪切"
+    ID_EDIT_FIND            "查找指定的正文\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一步操作\n重复"
+    ID_EDIT_REPLACE         "用不同的正文替换指定的正文\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n选择全部"
+    ID_EDIT_UNDO            "撤消最后一步操作\n撤消"
+    ID_EDIT_REDO            "重新执行先前已撤消的操作\n重新执行"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n显隐工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n显隐状态栏"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "改变窗口大小"
+    AFX_IDS_SCMOVE          "改变窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "把窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到先前的文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动的窗口并提示保存所有文档"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "把窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务表"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_OPENFILE        "选择打开的地图文件"
+    AFX_IDS_SAVEFILE        "保存地图文件为"
+    AFX_IDS_SAVEFILECOPY    "地图文件另存为"
+    AFX_IDS_PREVIEW_CLOSE   "关闭打印预览模式\n取消预阅"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_ORA_SIZE        "还原地图原本的尺寸\n还原尺寸"
+    ID_BUTTON_ROTATE_LEFT_90 "选择图片逆时针旋转90度\n逆时针旋转90度"
+    ID_BUTTON_ROTATE_RIGHT_90 "选择图片顺时针旋转90度\n顺时针旋转90度"
+    ID_BUTTON_SHOW_GRID     "显示/隐藏背景颜色和网格\n网格开关"
+    ID_BUTTON_ZOOMOUT       "缩小\n缩小"
+    ID_BUTTON_ZOOMIN        "放大\n放大"
+    ID_EDIT_DELETE          "删除选择的地图元素\n删除"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_BUTTON_BACKGROUND_COLOR "设置背景颜色\n背景颜色"
+    ID_BUTTON_MOVE_CANVAS   "鼠标点击空白区域移动画布\n移动画布"
+    ID_BUTTON_CLEAR_LOG     "清除日志\n清空"
+    ID_BUTTON_SHOW_INFO_DLG "显示调试信息对话框\n调试信息"
+    ID_BUTTON_SELECT_MODE   "选择模式\n选择"
+    ID_BUTTON_SCROLL_LOG    "\n自动滚屏到最后一条日志"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_MAP_PROPERTY    "地图参数属性设置\n设置"
+    ID_SET_MAP_PROPERTY     "地图参数设置\n地图参数设置"
+    ID_SET_EDITOR           "对编辑器的参数设置\n编辑器参数"
+    ID_SET_MAP              "调整地图属性设置，如玩家人数等\n当前地图设置"
+    ID_BUTTON_HIDE_PROPERTY "隐藏/打开右侧的属性窗口\n属性页"
+    ID_BUTTON_LOS           "获取视线模式，可以选择两个单元格，画出一条直线确定两个点之间是否有阻隔\nLOS模式"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\MapEditor.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#include "l.chs\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

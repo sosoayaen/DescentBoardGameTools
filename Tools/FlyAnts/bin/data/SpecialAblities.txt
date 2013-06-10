@@ -1,0 +1,46 @@
+Special Ability	Expansion	Has Ranks / Effect Stacks
+Bash	AOD	No.
+Berserk	AOD	Yes, in RTL only. Ex.: Blood Apes in RTL.
+Black Curse	AOD	No.
+Dark Prayer	AOD	No.
+Frost	AOD	No.
+Leap	AOD	No.
+Morph	AOD	No.
+Necromancy	AOD	No.
+Shadowcloak	AOD	No.
+Aura	JITD	Yes. Ex.: Shiver.
+Blast	JITD	Yes. Ex.: Lava Beetles.
+Breath	JITD	No.
+Burn	JITD	No.
+Command	JITD	Yes. Ex.: Master Beastmen in RTL.
+Fear	JITD	Yes. Ex.: Dragons.
+Fly	JITD	No.
+Grapple	JITD	No.
+Knockback	JITD	No.
+Pierce	JITD	Yes. Ex.: Skeletons.
+Poison	JITD	No.
+Reach	JITD	Yes (in RTL at least).
+Quick Shot	JITD	No.
+Sorcery	JITD	Yes. Ex.: Sorcerers.
+Stun	JITD	No.
+Sweep	JITD	No.
+Undying	JITD	No.
+Web	JITD	No.
+Regeneration	RTL	Yes. Ex.: Sir Alric Farrow.
+Reinforce	RTL	No.
+Soar	RTL	No.
+Constrict	SOB	No.
+Swim	SOB	No.
+Tentacle	SOB	Yes.
+Ghost	TOI	No.
+Stealth	TOI	No.
+Swallow	TOI	No.
+Tread Ice	TOI	No.
+Bleed	WOD	No.
+Bolt	WOD	No.
+Daze	WOD	No.
+Ironskin	WOD	No.
+Leech	WOD	No.
+Swarm	WOD	No.
+Trickster	WOD	Yes. Ex.: Master Kobolds in RTL.
+Unstoppable	WOD	No.

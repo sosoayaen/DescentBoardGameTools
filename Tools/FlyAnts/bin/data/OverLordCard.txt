@@ -1,0 +1,115 @@
+Overlord Card	Expansion	Type	Threat Cost	Treachery Cost	Discard Value	Number
+Alarm	AOD	Trap (Chest)	13	2 (purple)	4	1
+Ambush	AOD	Event	5	2 (green)	2	1
+Animate Weapons	AOD	Trap	20	2 (purple)	4	1
+Bane Spider Nest	AOD	Spawn	5	1 (red)	2	1
+Black Order	AOD	Spawn	5	-	2	1
+Blood Ape Tribe	AOD	Spawn	5	-	2	1
+Cloud of Gas	AOD	Trap (Door)	10	2 (purple)	3	1
+Critical Strike	AOD	Event	X	1 (green)	2	2
+Crushing Block	AOD	Trap (Space)	7	-	3	1
+Curse of the Ancients	AOD	Trap (Door)	11	1 (purple)	4	1
+Curse of the Monkey God	AOD	Trap (Chest)	11	1 (purple)	4	1
+Cursed Treasure	AOD	Trap (Chest)	7	1 (purple)	3	2
+Dance of the Monkey God	AOD	Trap	25	3 (purple)	5	1
+Danger	AOD	Event	0	1 (green)	10	1
+Danger	AOD	Event	0	-	10	1
+Dark Balm	AOD	Event	5	1 (green)	2	1
+Dark Balm	AOD	Event	5	-	2	1
+Dark Brothers	AOD	Spawn	6	2 (red)	2	1
+Dark Charm	AOD	Trap	8	1 (purple)	2	1
+Dark Power	AOD	Event	3	1 (green)	2	1
+Dark Relic	AOD	Trap (Treasure)	X	2 (purple)	4	2
+Dark Servant	AOD	Event	8	1 (red)	3	2
+DOOM!	AOD	Power	20	1 (red)	5	1
+Elite Beastman War Party	AOD	Spawn	6	2 (red)	2	1
+Enraged	AOD	Event	6	1 (green)	2	2
+Envy	AOD	Power	15	2 (green)	5	1
+Gluttony	AOD	Power	22	2 (purple)	5	1
+Jungle Drums	AOD	Spawn	6	1 (red)	2	1
+Legions of the Dead	AOD	Spawn	5	1 (red)	2	1
+Lone Assassin	AOD	Spawn	6	2 (red)	2	1
+Lone Troll	AOD	Spawn	6	1 (red)	2	1
+Paralyzing Gas	AOD	Trap (Door)	5	-	3	1
+Poison Spikes	AOD	Trap (Chest)	4	1 (purple)	2	1
+Poltergeist	AOD	Event	7	1 (green)	2	1
+Pride	AOD	Power	14	2 (green)	5	1
+Smash!	AOD	Event	3	1 (green)	1	1
+Spell of Burning	AOD	Event	7	1 (green)	2	1
+Spell of Frost	AOD	Event	10	1 (green)	3	1
+Time Slips Away	AOD	Event	7	1 (green)	3	1
+Trapmaster	AOD	Power	16	1 (purple)	5	1
+Unholy Swiftness	AOD	Power	16	2 (red)	5	1
+Urgency	AOD	Power	19	2 (green)	5	1
+Weakness	AOD	Event	3	1 (green)	2	2
+Aim	JITD	Event	2	-	1	3
+Bane Spider Swarm	JITD	Spawn	4	-	2	2
+Beastmen War Party	JITD	Spawn	4	-	2	2
+Brilliant Commander	JITD	Power	17	-	5	1
+Charge	JITD	Event	4	-	1	2
+Crushing Block	JITD	Trap (Space)	7	-	3	1
+Curse of the Monkey God	JITD	Trap (Chest)	11	-	4	1
+Dark Charm	JITD	Trap	8	-	2	1
+Dodge	JITD	Event	2	-	1	3
+DOOM!	JITD	Power	20	-	5	1
+Evil Genius	JITD	Power	25	-	5	1
+Explosive Door	JITD	Trap (Door)	9	-	3	1
+Explosive Rune	JITD	Trap (Chest)	12	-	4	1
+Gust of Winds	JITD	Event	6	-	2	2
+Hell Hound Pack	JITD	Spawn	5	-	2	1
+Hordes of the Things	JITD	Power	18	-	5	2
+Mimic	JITD	Trap (Chest)	8	-	3	1
+Paralyzing Gas	JITD	Trap (Door)	5	-	3	1
+Rage	JITD	Event	4	-	1	2
+Razorwing Flock	JITD	Spawn	5	-	2	1
+Skeleton Patrol	JITD	Spawn	4	-	2	2
+Sorcerer Circle	JITD	Spawn	5	-	2	1
+Spiked Pit	JITD	Trap (Space)	3	-	2	2
+Trapmaster	JITD	Power	16	-	5	1
+Frozen Path	TOI	Trap	3	1 (purple)	2	2
+Host of Haunts	TOI	Spawn	5	1 (red)	2	1
+Lava Beetle Colony	TOI	Spawn	5	1 (red)	2	1
+Lava Beetle Scouts	TOI	Spawn	4	-	2	1
+Lone Medusa	TOI	Spawn	4	-	2	1
+Mother Medusa	TOI	Spawn	6	1 (red)	2	1
+Prowling Wendigo	TOI	Spawn	6	1 (red)	2	1
+Shade Spooks	TOI	Spawn	4	-	2	1
+Sneak Up On The Prey	TOI	Event	3	1 (green)	2	2
+Spell of Thunder	TOI	Event	9	2 (green)	3	1
+Alarm	WOD	Trap (Chest)	13	2 (purple)	4	1
+All-Concealing Shadows	WOD	Power	17	2 (green)	5	1
+Ambush	WOD	Event	5	2 (green)	2	1
+Bane Spider Nest	WOD	Spawn	5	1 (red)	2	1
+Crushing Blow	WOD	Event	X	1 (green)	3	2
+Danger	WOD	Event	0	1 (green)	10	1
+Dark Armor	WOD	Power	19	1 (red)	5	1
+Dark Masters	WOD	Spawn	6	2 (red)	2	1
+Dark Power	WOD	Event	3	1 (green)	2	1
+Death on the Wing	WOD	Spawn	5	1 (red)	2	1
+Dire Warnings	WOD	Power	18	2 (green)	5	1
+Dogs of War	WOD	Spawn	6	2 (red)	2	1
+Drinkers of Blood	WOD	Spawn	5	1 (red)	2	1
+Drugged Darts	WOD	Trap (Door)	9	2 (purple)	3	1
+Elite Beastman War Party	WOD	Spawn	6	2 (red)	2	1
+Empower	WOD	Event	X	1 (green)	2	1
+Ferrox Tribe	WOD	Spawn	5	-	2	1
+Fire Runes	WOD	Trap (Chest)	9	1 (purple)	4	1
+Greed	WOD	Power	18	2 (purple)	5	1
+Guiding Forces	WOD	Power	17	2 (green)	5	1
+Killer Chest	WOD	Trap (Chest)	12	2 (purple)	4	1
+Kobold Horde	WOD	Spawn	7	1 (red)	2	1
+Kobold Swarm	WOD	Spawn	4	-	1	2
+Legions of the Dead	WOD	Spawn	5	1 (red)	2	1
+Lightning Runes	WOD	Trap (Door)	11	2 (purple)	4	1
+Lone Golem	WOD	Spawn	6	3 (red)	2	1
+Lone Manticore	WOD	Spawn	6	1 (red)	2	1
+Lone Naga	WOD	Spawn	6	1 (red)	2	1
+Lone Ogre	WOD	Spawn	6	1 (red)	2	1
+Poison Spikes	WOD	Trap (Space)	4	1 (purple)	2	1
+Rolling Stones	WOD	Trap (Space)	14	3 (purple)	5	1
+Scything Blades	WOD	Trap (Space)	6	1 (purple)	2	1
+Sloth	WOD	Power	16	2 (purple)	5	1
+Smash!	WOD	Event	3	1 (green)	1	1
+Spell of Binding	WOD	Event	8	2 (green)	2	1
+Welcome Mat	WOD	Trap (Door)	6	1 (purple)	2	1
+Wrath	WOD	Power	25	2 (red)	5	1

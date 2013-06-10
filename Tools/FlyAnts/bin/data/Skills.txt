@@ -1,0 +1,85 @@
+Skill	Expansion	Type	Availability (RTL)	Availability (SOB)
+Appraiser	AOD	Subterfuge	Dawnsmoor	Orris
+Bardic Lore	AOD	Wizardry	-	-
+Berserker	AOD	Fighting	Dawnsmoor	Orris
+Brawler	AOD	Fighting	Dawnsmoor	Shellport
+Brawny	AOD	Fighting	-	-
+Necromancy	AOD	Wizardry	Nerekhall	Orris
+Pickpocket	AOD	Subterfuge	Dawnsmoor	Orris
+Ranger	AOD	Subterfuge	-	-
+Shadow Soul	AOD	Subterfuge	Riverwatch	-
+Sharr the Brightwing	AOD	Wizardry	-	-
+Spiritwalker	AOD	Wizardry	Shika's Tree	-
+Tiger Tattoo	AOD	Fighting	Frostgate	Trelton
+Able Warrior	JITD	Fighting	Shika's Tree	Dagger's Isle
+Acrobat	JITD	Subterfuge	Dawnsmoor	-
+Alertness	JITD	Subterfuge	Shika's Tree	-
+Ambidextrous	JITD	Subterfuge	Forge	Dallak
+Battle Cry	JITD	Fighting	Dawnsmoor	Gafford
+Blessing	JITD	Wizardry	Vynelvale	Tarianor
+Boggs the Rat	JITD	Wizardry	Riverwatch	Trelton
+Cautious	JITD	Subterfuge	Forge	Dallak
+Cleaving	JITD	Fighting	Olmric's Hut	Gray's Vale
+Crack Shot	JITD	Subterfuge	Vynelvale	Gafford
+Deflect Arrows	JITD	Subterfuge	Tamalir	-
+Divine Retribution	JITD	Wizardry	Frostgate	-
+Enduring	JITD	Fighting	Forge	Dallak
+Holy Aura	JITD	Wizardry	Vynelvale	Tarianor
+Inner Fire	JITD	Wizardry	Tamalir	Garnott
+Knight	JITD	Fighting	Shika's Tree	-
+Leadership	JITD	Fighting	Vynelvale	-
+Marksman	JITD	Subterfuge	Tamalir	Garnott
+Master Archer	JITD	Subterfuge	Forge	Garnott
+Mata and Kata	JITD	Wizardry	Riverwatch	Trelton
+Mighty	JITD	Fighting	Tamalir	Garnott
+Parry	JITD	Fighting	Tamalir	-
+Precision	JITD	Subterfuge	Vynelvale	Gafford
+Prodigy	JITD	Wizardry	Greyhaven	Garnott
+Quick Casting	JITD	Wizardry	Olmric's Hut	Dagger's Isle
+Rapid Fire	JITD	Subterfuge	Olmric's Hut	-
+Relentless	JITD	Fighting	Forge	Gafford
+Skilled	JITD	Subterfuge	Forge	-
+Swift	JITD	Subterfuge	Frostgate	-
+Telekinesis	JITD	Wizardry	not used (see FAQ 1.3, p.13)	-
+Tough	JITD	Fighting	Forge	Orris
+Unmovable	JITD	Fighting	Forge	-
+Vampiric Blood	JITD	Wizardry	Nerekhall	Orris
+Weapon Mastery	JITD	Fighting	Vynelvale	Garnott
+Wild Talent	JITD	Wizardry	Frostgate	Hardell
+Willpower	JITD	Wizardry	Tamalir	-
+Alchemist	SOB	Wizardry	-	Gafford
+Alex the Wise	SOB	Wizardry	-	Shellport
+Brin's Mark	SOB	Wizardry	-	Dallak
+Captain	SOB	Fighting	-	Hardell
+Counterattack	SOB	Fighting	-	Dagger's Isle
+Dead Eye	SOB	Subterfuge	-	Shellport
+Defender	SOB	Fighting	-	Gafford
+Die Hard	SOB	Fighting	-	Dallak
+Evasion	SOB	Subterfuge	-	Dallak
+Gunner	SOB	Subterfuge	-	Hardell
+Hand of Death	SOB	Wizardry	-	Gray's Vale
+Keen Sight	SOB	Subterfuge	-	Tarianor
+Koll's Mark	SOB	Wizardry	-	Dallak
+Lightfinger	SOB	Subterfuge	-	Trelton
+Mage Cloak	SOB	Wizardry	-	Tarianor
+Nimble	SOB	Fighting	-	Shellport
+Piercing Shot	SOB	Subterfuge	-	Gray's Vale
+Ran's Mark	SOB	Wizardry	-	Dallak
+Runner	SOB	Fighting	-	Dallak
+Saj's Mark	SOB	Wizardry	-	Dallak
+Shark Tattoo	SOB	Fighting	-	Tarianor
+Spry	SOB	Fighting	-	Shellport
+Swashbuckler	SOB	Fighting	-	Gray's Vale
+Trickster	SOB	Subterfuge	-	Dagger's Isle
+Bear Tattoo	WOD	Fighting	not used (see FAQ 1.3, p.13)	-
+Born to the Bow	WOD	Subterfuge	Vynelvale	Gafford
+Burglar	WOD	Subterfuge	Dawnsmoor	Orris
+Eagle Eye	WOD	Subterfuge	Frostgate	Gafford
+Earth Pact	WOD	Wizardry	Nerekhall	-
+Fire Pact	WOD	Wizardry	Nerekhall	Hardell
+Furr the Spirit Wolf	WOD	Fighting	Riverwatch	-
+Lucky	WOD	Subterfuge	Frostgate	Shellport
+Ox Tattoo	WOD	Fighting	Frostgate	Trelton
+Taunt	WOD	Fighting	Dawnsmoor	-
+Water Pact	WOD	Wizardry	Greyhaven	-
+Wind Pact	WOD	Wizardry	Greyhaven	Hardell
